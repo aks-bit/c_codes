@@ -6,7 +6,7 @@ int main() {
     char *ptr;
     ptr = &buf;
     int i = 0;
-    
+   printf("This program prints provided string character address\n"); 
    while(i>=0)
    {
     if(buf[i] == '\0')
