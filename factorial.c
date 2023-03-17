@@ -3,7 +3,7 @@
  int input()
  {
     int num; 
-    printf("Enter an integer: ");
+    printf("Enter an integer number: ");
     scanf("%d", &num);  
     return (num);
  }     
@@ -13,6 +13,7 @@ int main()
     int num;
     int fact = 1;
     
+   printf("This program calculates factorial.\n");
    num = input();
    while(num < 0 )
    {
